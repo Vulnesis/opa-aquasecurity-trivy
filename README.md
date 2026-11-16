@@ -1,5 +1,7 @@
 # opa-aquasecurity-trivy
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/opa-aquasecurity-trivy)
+
 Vulnetix-compatible OPA/Rego rules for Dockerfile and Kubernetes manifest security, adapted from the intent of [Aqua Security trivy-checks](https://github.com/aquasecurity/trivy-checks).
 
 ## Clean-room approach
