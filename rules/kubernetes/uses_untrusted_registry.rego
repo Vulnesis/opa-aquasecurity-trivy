@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (KSV-0125).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 # The original rule reads an overridable allow list from data.ksv0125;
 # this port uses a static default trusted set (Azure + ECR + GCR suffixes).
 

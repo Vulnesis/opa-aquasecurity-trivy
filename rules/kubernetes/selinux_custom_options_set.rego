@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (KSV-0025).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 
 package vulnetix.rules.trivy_k8s_selinux_custom_options_set
 

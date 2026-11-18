@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (DS-0031).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 #
 # Heuristic-only: real Trivy implementation depends on external secret
 # scanning results. This port flags ENV/ARG assignments whose name matches

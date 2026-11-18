@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (DS-0011).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 
 package vulnetix.rules.trivy_docker_copy_with_more_than_two_arguments_not_ending_with_slash
 

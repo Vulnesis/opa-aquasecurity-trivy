@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (KSV055).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 
 package vulnetix.rules.trivy_k8s_allowing_users_rolebinding_add_other_users_rolebindings
 

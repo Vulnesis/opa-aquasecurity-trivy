@@ -1,5 +1,5 @@
 # Adapted from https://github.com/aquasecurity/trivy-checks (DS-0015).
-# Ported to the Vulnetix Rego input schema (input.file_contents).
+# Ported to the Vulnesis Rego input schema (input.file_contents).
 
 package vulnetix.rules.trivy_docker_yum_clean_all_missing
 
