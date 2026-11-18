@@ -1,6 +1,6 @@
 # opa-aquasecurity-trivy
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/opa-aquasecurity-trivy)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/opa-aquasecurity-trivy)
 
 Vulnetix-compatible OPA/Rego rules for Dockerfile and Kubernetes manifest security, adapted from the intent of [Aqua Security trivy-checks](https://github.com/aquasecurity/trivy-checks).
 
@@ -42,13 +42,13 @@ opa-aquasecurity-trivy/
 
 ```bash
 # Use alongside built-in rules
-vulnesis scan --rule Vulnesis/opa-aquasecurity-trivy
+vulnetix scan --rule Vulnesis/opa-aquasecurity-trivy
 
 # Use only these rules (disable built-ins)
-vulnesis scan --rule Vulnesis/opa-aquasecurity-trivy --disable-default-rules
+vulnetix scan --rule Vulnesis/opa-aquasecurity-trivy --disable-default-rules
 
 # Combine with other custom rule repos
-vulnesis scan \
+vulnetix scan \
   --rule Vulnesis/opa-aquasecurity-trivy \
   --rule myorg/additional-rules
 ```
